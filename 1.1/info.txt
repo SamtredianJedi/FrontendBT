@@ -1,0 +1,9 @@
+Angular And react main frameworks
+
+Backend Nest.js
+
+Electron - Desktop Applications
+
+React Native, NativeScript - Mobile Applications
+
+TensorFlow.js - Al

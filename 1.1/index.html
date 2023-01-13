@@ -1,0 +1,49 @@
+<!-- adding some action with javascript when user clicks in  -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rezo Xuchua</title>
+    <style>
+        button {
+            background-color: transparent;
+            border: 1px solid navy;
+            padding: 20px;
+            font-size: 1.4em;
+        }
+        
+        button:hover {
+            background-color: navy;
+            border: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <button>
+     Click Me
+    </button>
+    <div class="container">
+    </div>
+
+    <script>
+        function onClickEvent() {
+            const el = document.createElement('p');
+            el.innerText = 'Clicked the button';
+            document.querySelector('.container').appendChild(el);
+        }
+
+        document.querySelector('button').onclick = onClickEvent;
+    </script>
+
+
+
+</body>
+
+</html>
