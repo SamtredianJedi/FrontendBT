@@ -46,3 +46,8 @@ const YourFirstVariable = 10;
 // Naming Conventions for different companies
 
 // for example google, airbnb
+
+
+///////////////////////////
+
+const firstVariable = "Javascript gives you superpower";
